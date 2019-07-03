@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Alpha Studio Design</title>
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Josefin+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav>
+    <nav class="main-nav">
       <ul>
-        <li>
-          <img src="images/logo.png" alt="">
+        <li class="logo">
+          <img src="images/logo.png" alt="Alpha Studio Logo">
         </li>
         <li>
           <a href="#">home</a>
@@ -30,13 +32,16 @@
 
       </ul>
     </nav>
-    <section class="main-image">
-      <img src="images/image1.jpg" alt="">
-      <h1>Alpha Studio</h1>
-      <p>Branding, Photography, &amp; Web Services</p>
+    <section class="intro">
+      <div class="main-image">
+        <div class="intro-headings">
+          <h1>Alpha Studio</h1>
+          <p>Branding, Photography, &amp; Web Services</p>
+        </div>
+      </div>
     </section>
     <section class="about" id="about">
-      <p>Hello we are</p>
+      <p class="greetings">Hello we are</p>
       <h2>Alpha</h2>
       <h3>Design Studio &amp; Digital Agency</h3>
       <p>Suspendisse viverra, dui eu gravida vestibulum, velit erat efficitur augue, quis vulputate dui magna ut ipsum. Fusce iaculis dignissim elit sollicitudin scelerisque. Mauris congue iaculis odio, sit amet fringilla nisl molestie et. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
@@ -68,35 +73,28 @@
       </na>
       <div class="container">
         <div class="card">
-          <img src="images/image2.jpg" alt="">
           <p>Avocado // <span>Branding, Photography</span></p>
         </div>
         <div class="card">
-          <img src="images/image3.jpg" alt="">
           <p>Banana // <span>Branding, Print</span></p>
         </div>
         <div class="card">
-          <img src="images/image3.jpg" alt="">
           <p>Cherries // <span>Print, Web Design</span></p>
         </div>
         <div class="card">
-          <img src="images/image5.jpg" alt="">
           <p>Durian // <span>Branding, Web Design</span></p>
         </div>
         <div class="card">
-          <img src="images/image6.jpg" alt="">
           <p>Elderberry // <span>Photography, Print</span></p>
         </div>
         <div class="card">
-          <img src="images/image7.jpg" alt="">
           <p>Finger Lime // <span>Print, Product</span></p>
         </div>
       </div>
       <a href="">See all Works</a>
     </section>
     <section class="services" id="services">
-      <div class="">
-        <img src="images/image8.jpg" alt="">
+      <div class="service-image">
         <h2>Our Services</h2>
       </div>
       <div class="">
@@ -105,7 +103,7 @@
           <h3>Brand Strategy</h3>
           <p>Nam dictum eros nunc, et ultrices mauris sollicitudin a. Etiam ultricies ipsum a lectus commodo pulvinar.</p>
         </div>
-        <div class="">
+        <div class="service-list">
           <img src="images/icon2.png" alt="">
           <h3>Web Design</h3>
           <p>Donec quis justo non magna aliquam vestibulum nec eget leo. Vestibulum ante ipsum primis in faucibus orci luctus.</p>
