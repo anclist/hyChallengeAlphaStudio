@@ -99,10 +99,8 @@
 
 .service-image {
   flex: 1;
-  max-width: 300px;
-  max-height: 300px;
-  width: auto;
-  height: auto;
+  max-width: 600px;
+  max-height: 600px;
   background: url('../images/image8.jpg');
   background-repeat: no-repeat;
   background-size: cover;
